@@ -8,6 +8,7 @@ const [interest,setInterest] = useState("");
 const [time,setTime] = useState("");
 const [emi,setEmi] = useState("");
 
+
 const [amount,setAmount] = useState("");
 const [totalinterest,setTotalinterest] = useState("");
 
@@ -129,7 +130,7 @@ const Calculateloan = (event) => {
                 </div>
                 <div>
                   <h1>Total payments</h1>
-                  <h1 className="text-2xl font-bold">${totalinterest + amount}</h1>
+                  <h1 className="text-2xl font-bold">${totalinterest+amount}</h1>
                 </div>
                 <div>
                   <h1>Estimated payoff date</h1>

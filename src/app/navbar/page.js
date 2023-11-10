@@ -5,7 +5,7 @@ import {BsFacebook,BsInstagram,BsWhatsapp} from "react-icons/bs"
 export default function Navbar(){
     return(
         <div className="">
-            <div className="flex justify-between h-24 items-center bg-orange-300   px-10 ">
+            <div className="flex justify-between w-full h-24 items-center bg-orange-300   px-10 ">
                 <div>
                     <h1 className="text-3xl"><span className="text-sm align-top">The</span>Calculator<span className="text-sm  align-bottom ">Site</span></h1>
                 </div>
